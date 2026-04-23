@@ -19,22 +19,22 @@
      <div class="title">
         <h1>Calculo de Juros %</h1>
     </div>
-    <div class="calculos">
+    <form class="calculos">
         
         <label for="valorIncio">Valor Inicial</label>
-        <input type="number" id="inicial" placeholder="R$">
-
-        <label for="valorMensal">Valor mensal</label>
-        <input type="number" id="mensal" placeholder="R$">
+        <input type="number" id="valor1" name="inicial" placeholder="R$">
 
         <label for="taxaJuros">Taxa de juros</label>
-        <input type="number" id="juros" placeholder="">
+        <input type="number" id="valor2" name="juros" placeholder="%">
 
         <label for="periodoMes">Periodo em</label>
-        <input type="number" id="meses"placeholder="">
+        <input type="number" id="valor3" name="meses" placeholder="">
         
         
-        <button class="submit">Calcular</button>     
-    </div>
+        <button class="submit" type="submit" onclick="calcularJuros(event)">Calcular</button>
+    </form>
+
+    <p class="exibir" id="jurosFinal"></p>
 </body>
+<script src="src/index.js"></script>
 </html>

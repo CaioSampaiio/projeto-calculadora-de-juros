@@ -18,7 +18,6 @@ body{
     font-size: 30px;
     display:flex;
     flex-direction: column;
-    text-align: left;
     color: #141414; 
     align-items: center;
 }
@@ -48,13 +47,26 @@ input, select{
 }
 
 .submit {
-    margin-top: 15px;
-    border-radius: 5px;
-    height: 30px ;
-    width: 300px;
-    border: none;
-    color: #FFFFFF;
-    background-color: #141414;
-    font-size: 15px;
-    cursor: pointer;
+  margin-top: 15px;
+  border-radius: 5px;
+  height: 30px ;
+  width: 300px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #141414;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.exibir {
+  background-color: #FFFFFF;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 450px;
+  margin-right: 450px;
+  border-radius: 5px;
+  height: 50px ;
+  border: none;
 }
